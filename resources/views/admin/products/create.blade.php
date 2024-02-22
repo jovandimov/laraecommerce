@@ -156,8 +156,8 @@
                                                         value="{{ $coloritem->id }}" />
                                                     {{ $coloritem->name }}
                                                     <br />
-                                                    Quantity: <input type="number" name="quantity[]"
-                                                        style="width:70px;border: 1px solid" />
+                                                    {{-- Quantity: <input type="number" name="quantity[]"
+                                                        style="width:70px;border: 1px solid" /> --}}
                                                 </div>
                                             </div>
                                         @empty
